@@ -1,0 +1,42 @@
+body{
+    background-color: #222;
+    color: white;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+
+    /*justify-content: center*/
+    /*justify-content: flex-end*/
+    /*flex-start*/
+    /*space-between*/
+    /*space-around*/
+} 
+.containerItem{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid slateblue;
+    height: 150px;
+} 
+code{
+    color:yellow;
+}
+.box{
+    border: 5px dashed lime;
+    padding: 10px;
+    text-align: center;
+}
+.box1{
+background-color: #5e4e4e;
+}
+.box2{
+    background-color: #dede29;
+}
+.box3{
+    background-color: darkmagenta;
+}
+.box4{
+    background-color: red;
+}
